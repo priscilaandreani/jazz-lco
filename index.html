@@ -9,91 +9,118 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/fvb4gpy.css">
-    <script src="script.js"></script>
-    <title>Sesc Jazz</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <title>Jazz at Licoln Center Orchestra no Sesc</title>
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <a href="index.html" class="grid-5">
-                <p>jazz at lincoln center orchestra</p></a>
-            <nav class="grid-5 header_menu">
-                <ul>
-                    <li><a href="#">item a</a></li>
-                    <li><a href="#">item b</a></li>
-                    <li><a href="http://">item c</a></li>
-                    <li><a href="http://">item d</a></li>
-                </ul>
-            </nav>
+        <div
+         class="container">
+            <a href="index.html" class="">
+                <img src="./img/logo.png" alt="jazz lincoln center orchestra"></a>
         </div>
+
+        <input type="checkbox" name="" id="menu-hamburguer">
+        <label for="menu-hamburguer">
+            <nav class="menu-responsivo">
+                <span class="hamburguer"></span>
+            </nav>
+        </label>
+
+        <ul class="responsivo">
+            <li><a href="fotos.html">imagens <br><span>images</span></a></li>
+            <li><a href="midia.html">mídia <br> <span>media</span></a></li>
+            <li><a href="pecas-graficas.html">identidade visual <br><span>visual identity</span></a></li>
+            <li><a href="publicidade.html">divulgação <br><span>publicity</span></a></li>
+        </ul>
+        
     </header>
     
     <section class="intro">
         <div class="container">
-            <img src="img/jazz.png" alt="" class="grid-9">
-            <a href="confira" class="btn grid-4">confira o relatório</a>
+            <img src="img/jazz.png" alt="jlco logo" class="grid-9">
+            <a href="img/home/relatorio.pdf" target="_blank" class="btn grid-4">confira o relatório</a>
         </div>
     </section>
 
     <section class="fotos">
         <div class="container">
-            <h2 class="subtitulo">fotos</h2>
+            <h2 class="subtitulo">imagens/<span>images</span></h2>
             <ul class="fotos_lista">
-                <li class="grid-4"><a href=""><img src="" alt=""></a></li>
-                <li class="grid-4"><a href=""><img src="" alt=""></a></li>
-                <li class="grid-4"><a href=""><img src="" alt=""></a></li>
-                <li class="grid-4"><a href=""><img src="" alt=""></a></li>
-                <li class="grid-4"><a href=""><img src="" alt=""></a></li>
-                <li class="grid-4"><a href=""><img src="" alt=""></a></li>
-                <li class="grid-4"><a href=""><img src="" alt=""></a></li>
-                <li class="grid-4"><a href=""><img src="" alt=""></a></li>
+                <li class="grid-7"><a href="img/home/paulista1.jpg" data-lightbox="home" data-title="Coletiva de Imprensa"><img src="img/home/paulista1.jpg" alt=""></a></li> <!--Av Paulista 2019 06 18 Coletiva Imprensa Wynton Marsali_FT_Erika Mayumi_-456-->
+                <li class="grid-7"><a href="img/home/guarulhos1.jpg" data-lightbox="home" data-title="Concerto Comentado 'O que é Jazz'"><img src="img/home/guarulhos1.jpg" alt=""></a></li> <!-- Guarulhos 2019 06 26 Concerto Comentado O que e Jazz FT Alexandre Nunis (47)-->
+                <li class="grid-7"><a href="img/home/guarulhos2.jpg" data-lightbox="home" data-title="Lindy Hop CCM Jazz Orchestra"><img src="img/home/guarulhos2.jpg" alt=""></a></li> <!--Guarulhos 2019 06 28 Lindy Hop CCM Jazz Orchestra FT Ricardo Ferreira 08-->
+                <li class="grid-7"><a href="img/home/santo-andre.jpg" data-lightbox="home" data-title="Orquestra CCM"><img src="img/home/santo-andre.jpg" alt=""></a></li> <!-- Santo André 2019 06 27 orquestraccm FT TABA BENEDICTO-3622-->
+                <li class="grid-7"><a href="img/home/pinheiros.jpg" data-lightbox="home" data-title="JLCO Concerto 'Obras Originais'"><img src="img/home/pinheiros.jpg" alt=""></a></li> <!--Pinheiros 2019 06 28 JLCO Concerto obras originais FT Ricardo Ferreira 07-->
+                <li class="grid-7"><a href="img/home/guarulhos3.jpg" data-lightbox="home" data-title="Lindy Hop CCM Jazz Orchestra"><img src="img/home/guarulhos3.jpg" alt=""></a></li> <!--Guarulhos 2019 06 28 Lindy Hop CCM Jazz Orchestra FT Ricardo Ferreira 15-->
+                <li class="grid-7"><a href="img/home/vila1.jpg" data-lightbox="home" data-title="JLCO CCM"><img src="img/home/vila1.jpg" alt=""></a></li> <!--Vila Mariana 2019 06 25 JLCO CCM FT Taba Benedicto (69)-->
+                <li class="grid-7"><a href="img/home/vila2.jpg" data-lightbox="home" data-title="JLCO CCM"><img src="img/home/vila2.jpg" alt=""></a></li> <!--Vila Mariana 2019 06 25 JLCO CCM FT Taba Benedicto (80)-->
             </ul> 
-            <a href="confira" class="btn grid-4">veja mais fotos</a>
+            <a href="fotos.html" class="btn grid-4">veja todas as fotos</a>
         </div>
     </section>
 
     <section class="playlist">
         <div class="container">
-                <h2 class="subtitulo">saiu na mídia</h2>
-        <ul class="audios">
-            <li class="grid-14 titulo">saiu na mídia <span> data</span></li>
-            <li class="grid-14 audio">CNN<span>29-12-2019</span></li>
-            <li class="grid-14 audio">CNN<span>29-12-2019</span></li>
-            <li class="grid-14 audio">CNN<span>29-12-2019</span></li>
-            <li class="grid-14 audio">CNN<span>29-12-2019</span></li>
-            <li class="grid-14 audio">CNN<span>29-12-2019</span></li>
-            <li class="grid-14 audio">CNN<span>29-12-2019</span></li>
-            <li class="grid-14 audio">CNN<span>29-12-2019</span></li>
-            <li class="grid-14 audio">CNN<span>29-12-2019</span></li>
-        </ul>
-        <a href="confira" class="btn grid-4">veja mais</a>
+                <h2 class="subtitulo">saiu na mídia/<span>media</span></h2>
+                <iframe width="450" height="315" src="https://www.youtube.com/embed/MAkPo74k2vc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe  class="depois" width="450" height="315" src="https://www.youtube.com/embed/BwUZl5tgaRg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a href="midia.html" class="btn grid-4">JLCO na mídia</a>
         </div>
     </section>
 
-    <section class="videos">
+    <section class="publicacoes">
             <div class="container">
-                <h2 class="subtitulo">vídeos</h2>
-                <ul class="videos_lista">
-                    <li class="grid-7"><a href=""><img src="" alt=""></a></li>
-                    <li class="grid-7"><a href=""><img src="" alt=""></a></li>
-                    <li class="grid-7"><a href=""><img src="" alt=""></a></li>
+                <h2 class="subtitulo">identidade visual/<span>visual identity</span></h2>
+                <ul class="pdf_lista">
+                    <div class="grid-5">
+                        <li>
+                            <a href="./img/pecas-graficas/livreto.pdf"   target="_blank"><img src="./img/home/livreto.png" alt=""></a>
+                        </li>
+                        <h4>Livreto Jazz</h4>
+                    </div>
+    
+                    <div class="grid-5">
+                        <li>
+                            <a href="./img/pecas-graficas/eflyer.pdf" target="_blank"><img src="./img/home/livreto_ccm.png" alt=""></a>
+                        </li>
+                        <h4>Livreto CCM</h4>
+                    </div>
+                    
                 </ul> 
-                <a href="confira" class="btn grid-4">todos os vídeos</a>
+                <a href="pecas-graficas.html" class="btn grid-4">todas as publicações</a>
             </div>
         </section>
     
+        <section class="videos">
+            <div class="container">
+                <h2 class="subtitulo">publicidade / <span>advertising</span></h2>
+                <ul class="videos_lista">
+                    <li class="grid-7"><img src="./img/publicidade/2019-17-06-anuncio.jpg" alt=""></li>
+                    <li class="grid-7"><a href=""><img src="./img/publicidade/2019-21-06-anuncio.jpg" alt=""></a></li>
+                </ul> 
+                <a href="publicidade.html" class="btn grid-4">todos os anúncios</a>
+            </div>
+        </section>
+
+
     <footer class="footer">
         <div class="container">
             <div class="sobre grid-6">
-                <h3><a href="https://www.jazz.org/JLCO/">sobre</a></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eius distinctio vel, similique asperiores ipsam quas aliquam exercitationem quod laboriosam laborum, veniam illum eum consequuntur iusto animi quibusdam sit aliquid.</p>
+                <h3><a href="https://www.jazz.org/JLCO/" target="_blank">sobre</a></h3>
+                <p>O Jazz at Lincoln Center (JALC) é uma organização sem fins lucrativos. Produz uma temporada anual de concertos no Rose Theatre e na Appel Room e concertos noturnos no Dizzy's Club, todos localizados no Frederick P. Rose Hall, no 5º andar do Time Warner Center em Columbus Circle, Nova York.</p>
             </div>
 
             <div class="sobre grid-6">
-                <h3><a href="https://www.sescsp.org.br/jlco">sesc são paulo</a></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident pariatur doloribus harum odio sit, quam ut illum delectus? Nobis itaque reiciendis dignissimos. Rerum similique unde soluta maiores sint commodi!</p>
+                <h3><a href="https://www.sescsp.org.br/jlco" target="_blank">sesc são paulo</a></h3>
+                <p>O Sesc - Serviço Social do Comércio é uma instituição brasileira privada e sem fins lucrativos, mantida pelo empresariado do comércio de bens, serviços e turismo. </p>
             </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./js/lightbox.js"></script>
 </body>
 </html>
